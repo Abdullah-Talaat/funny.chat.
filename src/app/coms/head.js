@@ -13,7 +13,7 @@ export default function Head() {
         <header>
             <button onClick={() => {
                     setMenoMood("translateY(0%)")
-            }} className="meno">Meno</button>
+            }} className="meno">Menu</button>
             <ul className="computer">
                 <li><Link href={"/"}>Home</Link></li>
                 <li><Link href={"/blog"}>Blog</Link></li>
