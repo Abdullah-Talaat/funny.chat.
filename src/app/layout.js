@@ -97,14 +97,8 @@ export default function RootLayout({ children }) {
         {/* <mate name="theme-color" content="#000000" /> */}
         {/* <mate name="title" content="funny chat"/> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="image" href="./share.jpg" />
-        {/* <mate name="image" content="./share.png"/> */}
-        <link rel="icon" type="image/png" href="./funny messages.png" />
-        <meta property="og:image" content="./share.jpg"/>
-        <meta property="og:title" content="funny chat" />
-        <meta property="og:description" content="Funny Chat is a chat app that allows you to chat with my friends with emojis and stickers and funny" />
-        {/* <meta p roperty="og:url" content="https://abdullah-t-funny-chat-hjni.vercel.app/" /> */}
-        <meta property="og:type" content="website" />
+        <meta property="og:title" content="funny chat_.t-a-ghe" />
+        <meta name="description" content="Funny Chat is a chat app that allows you to chat with your / my friends with emojis and stickers and funny // some key words => chat , chats , fun , funny , funny chat , sfunny chats , funny chat app , funny chat app for android , funny chat app for ios , funny chat app for windows , funny chat app for mac , funny chat app for linux , funny chat app for web , funny chat app for mobile , funny chat app for tablet , funny chat app for desktop , chat with friends , chat with friends app , chat with friends app for android , chat with friends app for ios , chat by stickers " />
       </head>
       <UseUser.Provider value={{ user, setUser }}>
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
