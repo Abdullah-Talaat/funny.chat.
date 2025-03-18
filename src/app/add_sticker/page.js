@@ -15,6 +15,7 @@ export default function Add_Sticker() {
     return (
 
         <main>
+            <h1>Add_Sticker</h1>
                 <title>add sticker</title>
             
             <input onChange={(e)=>setPassword(e.target.value)}  value = {password} className="input" placeholder="add password"></input>

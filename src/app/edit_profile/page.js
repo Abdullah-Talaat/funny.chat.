@@ -6,6 +6,7 @@ import { uploadPreset } from "../sign_up/page";
 import SH from "../coms/should_log";
 import { doc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase/firebase_confage";
+console.log(localStorage.getItem("user_token"))
 export default function Edit_profile() {
     const {user} = useContext(UseUser)
     if(!user.userOk){
