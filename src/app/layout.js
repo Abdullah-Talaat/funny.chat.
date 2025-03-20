@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="image" content="./share.jpg"/>
-        {/* <link rel="icon" type="image/png" href = "./funny messages.png" /> */}
+        {/* <link rel="ico n" type="image/png" href = "./funny messages.png" /> */}
         <title>funny chat</title>
         {/* <mate name="theme-color" content="#000000" /> */}
         {/* <mate name="title" content="funny chat"/> */}
