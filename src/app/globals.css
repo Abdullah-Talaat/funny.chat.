@@ -585,3 +585,9 @@ border-radius: 15px;
   color: #f0f0f0;
   background-color: #222;
 }
+.c-1 h4 , .c-2 h4 {
+  font-size: large;
+}
+b {
+  font-weight: 300;
+}

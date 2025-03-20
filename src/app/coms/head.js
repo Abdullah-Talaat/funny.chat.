@@ -14,8 +14,8 @@ export default function Head() {
             <ul>
                 <li><Link href={"/"}>Home</Link></li>
                 <li><Link href={"/chats"}>Chats</Link></li>
+                <li><Link href={"/groups"}>Groups</Link></li>
                 <li><Link href={"/search"}>Search</Link></li>
-
                 {!user.userOk ? (
                     <li className="log-in-links">
                         <Link href={"/log_in"}>Log in</Link>

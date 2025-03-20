@@ -91,15 +91,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content="./share.jpg"/>
-        <link rel="icon" type="image/png" href = "./funny messages.png" />
-        <title>funny chat</title>
-        <mate name="theme-color" content="#000000" />
-        <mate name="title" content="funny chat"/>
+        <meta name="image" content="./share.jpg"/>
+        {/* <link rel="icon" type="image/png" href = "./funny messages.png" /> */}
+        {/* <title>funny chat</title> */}
+        {/* <mate name="theme-color" content="#000000" /> */}
+        {/* <mate name="title" content="funny chat"/> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:image" content="https://res.cloudinary.com/dkmoybjw3/image/upload/v1742093276/zrcizwxkhh6doid6myof.jpg"/>
+        <link rel="image" href="./share.jpg" />
+        {/* <mate name="image" content="./share.png"/> */}
+        <link rel="icon" type="image/png" href="./funny messages.png" />
+        <meta property="og:image" content="https://res.cloudinary.com/rtextcizwxkhh6doid6myofmage/upload/v1742093276/zrcizwxkhh6doid6myof.jpg"/>
         <meta property="og:title" content="funny chat_.t-a-ghe" />
-        <meta name="description" content="Funny Chat is a chat app that allows you to chat with my friends with emojis and stickers and funny" />
         <meta property="og:description" content="Funny Chat is a chat app that allows you to chat with my friends with emojis and stickers and funny" />
         <meta property="og:url" content="https://abdullah-t-funny-chat-hjni.vercel.app/" />
         <meta property="og:type" content="website" />
