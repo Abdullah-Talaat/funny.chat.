@@ -126,6 +126,8 @@ export default function Anther_Profile() {
         </>
     )
     return (
+
+        
         <Suspense fallback={<Loder/>}>
         <main className="m-p">
             <title>funny chat | {user11.userName}</title>
