@@ -177,7 +177,12 @@ export default function Group() {
 
             <div className="chat-c">
             {
+
+
+
+
                 
+
                 allMsg.filter((msg) => msg.msgKey == group.groupKey).map((msg, index) => 
                     msg.type == "text" ? (
                         msg.from1 == user.userNum ? (

@@ -103,7 +103,7 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content="./share.jpg"/>
         <meta property="og:title" content="funny chat" />
         <meta property="og:description" content="Funny Chat is a chat app that allows you to chat with my friends with emojis and stickers and funny" />
-        {/* <meta property="og:url" content="https://abdullah-t-funny-chat-hjni.vercel.app/" /> */}
+        {/* <meta p roperty="og:url" content="https://abdullah-t-funny-chat-hjni.vercel.app/" /> */}
         <meta property="og:type" content="website" />
       </head>
       <UseUser.Provider value={{ user, setUser }}>
