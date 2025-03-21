@@ -103,9 +103,8 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content="./share.jpg"/>
         <meta property="og:title" content="funny chat" />
         <meta property="og:description" content="Funny Chat is a chat app that allows you to chat with my friends with emojis and stickers and funny" />
-        <meta property="og:url" content="https://abdullah-t-funny-chat-hjni.vercel.app/" />
+        {/* <meta property="og:url" content="https://abdullah-t-funny-chat-hjni.vercel.app/" /> */}
         <meta property="og:type" content="website" />
-        {/* <mate name="robots" content="index, follow"></mate> */}
       </head>
       <UseUser.Provider value={{ user, setUser }}>
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
