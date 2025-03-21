@@ -110,7 +110,7 @@ export default function Anther_Profile() {
     if (user.id === user11.id) {
         return (
             <main className="m-p pp">
-                <h3>You can't see your profile here</h3>
+                <h3>You  can't see your profile here</h3>
                 <Link href={"/profile"}>You can see your profile there</Link>
             </main>
         );
