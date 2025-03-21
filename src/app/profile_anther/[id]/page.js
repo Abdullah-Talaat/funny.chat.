@@ -118,17 +118,17 @@ export default function Anther_Profile() {
     if(user.userOK == false) (
         <>
             you should go to <Link style={{
-                color:"blue"  
+                color:"red"  
             }} href={"/log_in"}>log in</Link>
             or <Link style={{
-                color:"blue"
+                color:"red"
             }} href={"/sign_up"}>sign_up</Link>
         </>
     )
     return (
+        
 
         
-        <Suspense fallback={<Loder/>}>
         <main className="m-p">
             <title>funny chat | {user11.userName}</title>
             <div className="userProfile">
@@ -173,6 +173,6 @@ export default function Anther_Profile() {
                 <h4>Her/Him Mode: <b>{user11?.mode ? "Public" : "Private"}</b></h4>
             </div>
         </main>
-        </Suspense>
+        
     );
 }
