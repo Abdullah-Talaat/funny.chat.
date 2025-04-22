@@ -74,4 +74,7 @@ console.log(post)
 
     <Link href={"/blog"} className='text-red-600 hover:text-red-800'>        go to blog</Link>
   </>;
+
+
+
 }
