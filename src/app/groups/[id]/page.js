@@ -125,6 +125,7 @@ export default function Group() {
    }
 
    const handleSendSticker = (url) => {
+    setStickerMood(false)
     const date = new Date();
     const time = date.toLocaleTimeString();
     const date1 = date.toLocaleDateString()

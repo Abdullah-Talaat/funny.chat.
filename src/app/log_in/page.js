@@ -62,7 +62,8 @@ export default function LogIn() {
                 window.location.href = "/chats"
             }
             else {
-                alert("user not found")
+                alert("you wrote wrong number or password")
+
             }
         }
     }
