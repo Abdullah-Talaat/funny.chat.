@@ -710,3 +710,24 @@ b {
 input , textarea{
   color:#111;
 }
+.img-card-post{
+  max-width: 90%;
+  max-height: 30vh;
+  margin:0 auto
+}
+/*
+.img-card-blog{
+  max-height: 300px;
+  min-height: 250px;
+} */
+ .img-card-blog{
+  width: 100%;
+ }
+ .a-blog{
+  color:#2977F6;
+  text-decoration: underline;
+ }
+
+a, button{
+  cursor: pointer;
+}

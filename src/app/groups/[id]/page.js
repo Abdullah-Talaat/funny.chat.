@@ -125,7 +125,6 @@ export default function Group() {
    }
 
    const handleSendSticker = (url) => {
-    setStickerMood(false)
     const date = new Date();
     const time = date.toLocaleTimeString();
     const date1 = date.toLocaleDateString()
@@ -251,7 +250,9 @@ export default function Group() {
                 {
                     stickers.map((stick)=>(
                         <div className="sticker"
-                        onClick={()=>{handleSendSticker(stick.url)}}
+                        onClick={()=>{handleSendSticker(stick.url)
+                    setStickerMood(!stickerMood)
+                        }}
                         key={stick.id}
                         >
                             <img src={stick.url}></img>

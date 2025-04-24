@@ -44,16 +44,17 @@ console.log(post)
       </CldUploadWidget>
       <button className='p-2 bg-green-300 hover:bg-green-500 m-2' onClick={async (e)=>{
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:1080667841.
-        const date = new Date();
-        const date1 = date.toLocaleDateString;
-        const date2 = date.toLocaleTimeString;
+const date = new Date()
+const time = date.toLocaleTimeString()
+const date1 = date.toLocaleDateString()
+const date2 = `${time}/${date1}`
         console.log(date1 + " " + date2);
         e.preventDefault()
         if(post.title != "" && post.body != "" && post.image != ""){
         const blogRef = collection(db, "blog");
         await addDoc(blogRef, {
           ...post,
-          date: date2 + " " + date1,
+          date: date2,
         });
         setPost({
           title:"",
