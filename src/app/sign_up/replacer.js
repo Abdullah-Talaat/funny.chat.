@@ -3,7 +3,9 @@ export function encode(text) {
   text = text.toString()
     let ttt = text 
       .replace(/0/g, "ZTW")
+      
       .replace(/1/g, "OCi")
+
       .replace(/2/g, "TVX")
       .replace(/3/g, "DFR")
       .replace(/4/g, "GyUi")
