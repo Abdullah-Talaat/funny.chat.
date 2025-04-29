@@ -723,7 +723,8 @@ input , textarea{
 } */
  .img-card-blog{
   
-  width: 100%;
+  width: 80vw;
+  height: auto;
  }
  .a-blog{
   color:#2977F6;
