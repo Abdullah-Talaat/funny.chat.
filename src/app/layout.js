@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
         <meta name="image" content="./share.jpg"/>
         {/* <link rel="ico n" type="image/png" href = "./funny messages.png" /> */}
         <title>funny chat</title>
-        {/* <mate name="theme-color" content="#000000" /> */}
+        {/* <matehttps://github.com/Abdullah-Talaat/funny.chat.git name="theme-color" content="#000000" /> */}
         {/* <mate name="title" content="funny chat"/> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="funny chat_.t-a-ghe" />
