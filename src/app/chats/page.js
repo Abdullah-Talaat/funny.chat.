@@ -28,6 +28,7 @@ export default function Chats() {
         <main>
             
             
+      
                 <title>Chats</title>
         
           <h1 style={{textAlign:"center", paddingTop:"20px", paddingBottom:"20px"}}>Your Chats</h1>
